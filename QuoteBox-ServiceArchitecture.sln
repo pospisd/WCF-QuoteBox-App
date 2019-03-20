@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteBoxData", "QuoteBoxData\QuoteBoxData.csproj", "{569B664E-B3D8-4682-8D0E-26D73023E909}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{569B664E-B3D8-4682-8D0E-26D73023E909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569B664E-B3D8-4682-8D0E-26D73023E909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569B664E-B3D8-4682-8D0E-26D73023E909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569B664E-B3D8-4682-8D0E-26D73023E909}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F56D653-9429-4A51-8EED-07BAE96E0D3F}
+	EndGlobalSection
+EndGlobal
