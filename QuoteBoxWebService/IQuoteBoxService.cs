@@ -1,9 +1,8 @@
-﻿// IQuoteBoxService.cs
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.ServiceModel;
-//using QuoteBoxDAL.EF;
+using QuoteBoxData.EF;
 
 namespace QuoteBoxWebService
 {
