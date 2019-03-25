@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteBoxData", "QuoteBoxData\QuoteBoxData.csproj", "{569B664E-B3D8-4682-8D0E-26D73023E909}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteBoxWinServiceHost", "QuoteBoxWinServiceHost\QuoteBoxWinServiceHost.csproj", "{14CC0970-C8B5-4295-AF61-467072B8DB3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteBoxTestConsole", "QuoteBoxTestConsole\QuoteBoxTestConsole.csproj", "{194FC955-B8AB-4F98-A56A-9967A2F69C08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteBoxWebService", "QuoteBoxWebService\QuoteBoxWebService.csproj", "{C1932F8A-AC60-4663-A75C-5C1C15B7F7CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{569B664E-B3D8-4682-8D0E-26D73023E909}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{569B664E-B3D8-4682-8D0E-26D73023E909}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{569B664E-B3D8-4682-8D0E-26D73023E909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CC0970-C8B5-4295-AF61-467072B8DB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CC0970-C8B5-4295-AF61-467072B8DB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CC0970-C8B5-4295-AF61-467072B8DB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CC0970-C8B5-4295-AF61-467072B8DB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{194FC955-B8AB-4F98-A56A-9967A2F69C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194FC955-B8AB-4F98-A56A-9967A2F69C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194FC955-B8AB-4F98-A56A-9967A2F69C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194FC955-B8AB-4F98-A56A-9967A2F69C08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1932F8A-AC60-4663-A75C-5C1C15B7F7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1932F8A-AC60-4663-A75C-5C1C15B7F7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1932F8A-AC60-4663-A75C-5C1C15B7F7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1932F8A-AC60-4663-A75C-5C1C15B7F7CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
