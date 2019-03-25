@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Threading.Tasks;
-using QuoteBoxDAL.EF;
+using QuoteBoxData.EF;
 
 namespace QuoteBoxDAL.Repos
 {

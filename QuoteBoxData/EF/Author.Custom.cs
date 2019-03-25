@@ -1,7 +1,8 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using QuoteBoxData.EF;
 
-namespace QuoteBoxDAL.EF
+namespace QuoteBoxData.EF
 {
     public partial class Author
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace QuoteBoxDAL.EF
+namespace QuoteBoxData.EF
 {
     public partial class Quote
     {
