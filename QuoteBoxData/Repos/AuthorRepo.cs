@@ -35,9 +35,47 @@ namespace QuoteBoxData.Repos
             Context.Authors.Remove(author);
         }
 
+        /// <summary>
+        /// Update Author by passing an Author object.
+        /// </summary>
+        /// <param name="author"></param>
         public void UpdateAuthor(Author author)
         {
             Context.Entry(author).State = System.Data.Entity.EntityState.Modified;
+        }
+
+        /// <summary>
+        /// Update Author by passing individual attributes.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="firstName"></param>
+        /// <param name="middleName"></param>
+        /// <param name="lastName"></param>
+        /// <param name="additionalTxt"></param>
+        public void UpdateAuthor(
+            int id,
+            string firstName = null,
+            string middleName = null,
+            string lastName = null,
+            string additionalTxt = null)
+        {
+            var author = Context.Authors.Find(id);
+
+            if (firstName != null)
+                author.FirstName = firstName;
+
+            if (middleName != null)
+                author.MiddleName = middleName;
+
+            if (lastName != null)
+                author.LastName = lastName;
+
+            if (additionalTxt != null)
+                author.AdditionalTxt = additionalTxt;
+
+            // Make sure at least one parameter has been updated!
+            if (firstName != null || middleName != null || lastName != null || additionalTxt != null)
+                Context.SaveChanges();
         }
 
         public void Save()
@@ -58,7 +96,6 @@ namespace QuoteBoxData.Repos
             }
             this.dispose = true;
         }
-
         public void Dispose()
         {
             Dispose(true);
@@ -67,3 +104,4 @@ namespace QuoteBoxData.Repos
 
     }
 }
+
